@@ -1,0 +1,115 @@
+//1. Display This Information using println
+// a. Your Name
+// b. Your Birth date
+// c. Your Age
+// d. Your Address
+
+void main()
+{
+  print("Pithadiya Karan");
+  print("15/7/1996");
+  print("27");
+  print("bedinaka tower, \nrajkot");
+}
+
+***************
+//2. Write a program to make addition, Subtraction, Multiplication and Division of
+//Two Numbers.
+void main()
+{
+  int a = 55;
+  int b = 44;
+
+  print(a+b);
+  print(a-b);
+  print(a*b);
+  double c = a/b;
+  print(c);//aaiya j direct pharse kari ne karvu hoy to km thase.?
+
+
+}
+
+************
+//3. Write a program to make a square and cube of number.
+import 'dart:io';
+
+void main()
+{
+  print("Enter Your Value");
+  int a = int.parse(stdin.readLineSync());
+  int square = a * a;
+  int cube = a * a * a;
+  print("Square of the number is $square");
+  print("Cube of the number is $cube");
+}
+
+***************************
+//4thand 5th nathi
+
+***********
+//6. Write a program to find the simple Interest.
+void main()
+{
+  int a = 50000;
+  int r = 5;
+  int y = 3;
+
+  double simpleintrest = (a*r*y)/100;
+  print(simpleintrest);
+}
+
+****************
+//7. Write a program to calculate sum of 5 subjects & find the percentage.Subject marks entered by user.
+import 'dart:io';
+
+void main()
+{
+  print("Enter 1st subject marks");
+  int first = int.parse(stdin.readLineSync());
+  print("Enter 2nd subject marks");
+  int secand = int.parse(stdin.readLineSync());
+  print("Enter 3rd subject marks");
+  int thired = int.parse(stdin.readLineSync());
+  print("Enter 4th subject marks");
+  int forth = int.parse(stdin.readLineSync());
+  print("Enter 5th subject marks");
+  int fifth = int.parse(stdin.readLineSync());
+
+  int totmarks = first+secand+thired+forth+fifth;
+  double percentage = totmarks*100/500;
+  print("total marks is $totmarks");
+  print("percentage is $percentage");
+  
+}
+
+*****************
+//8.Write a Program to check the given number is Positive, Negative.
+void main()
+{
+  int a = 1;
+ if(a>0)
+ {
+   print("this is positive");
+ }
+ else
+ {
+   print("this is nagetive");
+
+ }
+}
+
+**************
+
+//9.Write a Program to check the given year is leap year or not.
+void main()
+{
+  int year = 2004;
+  if(year%4==0 && year%100!=0 || year%400 == 0)
+      {
+        print("this is a leap year");
+      }
+  else
+      {
+      print("this is not a leap year");
+      }
+  }
